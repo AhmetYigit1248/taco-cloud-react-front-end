@@ -1,0 +1,93 @@
+.login-page {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-page img {
+    max-width: 150px;
+    margin: 15px 0;
+}
+
+.login-page form {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-page input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-page input[type="submit"]:hover {
+    background: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.divider {
+    margin: 20px 0;
+    color: #666;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ef9a9a;
+}
+
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.google-btn:hover {
+    background: #3367d6;
+}
